@@ -1,0 +1,31 @@
+.item {
+  list-style: none;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 20px;
+  width: 270px;
+  padding: 4px;
+  background-color: #e6e6e6;
+}
+
+.name {
+  margin: 0;
+}
+.number {
+  margin: 0;
+  margin-left: auto;
+}
+
+.deleteButton {
+  border: 1px solid #000000;
+  border-radius: 4px;
+  height: 18px;
+  background-color: #fff;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.deleteButton:focus {
+  box-shadow: none;
+}

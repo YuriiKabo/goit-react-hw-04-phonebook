@@ -1,0 +1,7 @@
+.list {
+  /* background-color: #888888; */
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
